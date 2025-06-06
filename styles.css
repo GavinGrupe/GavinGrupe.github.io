@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	float: left;
+	background-color: #1b1b1b;
+	width: 100%;
+	padding: 10px 0;
+	z-index: 12;
+}
+nav .menu{
+	max-width: 1250px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.menu .logo a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+.menu ul{
+	display: inline-flex;
+}
+.menu ul li{
+	list-style: none;
+	margin-left: 7px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weird: 500;
+	padding: 8px 8px;
+	border-padius: 5px;
+	transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+	border-radius: 25px;
+	background: #fff;
+	color: #000;
+}
+.img{
+	background: url(images/gavin.jpg) no-repeat;
+	height: 100vh;
+	width:100%;
+	background-position: center;
+	background-size:cover;
+}
+.img::before{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+.center{
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	width: 75%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.3);
+	padding: 0 20px;
+	text-align: center;
+}
+.center .title{
+	color: #fff;
+	font-size: 55px;
+	font-weight: 500;
+}
+
+.smallnav {
+	float: right;
+	padding: 10px;
+    font-family: "Calibri";
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #000000 url(images/menu.png) center;
+
+}
+
+b:hover#menu-icon {
+	background-color: #000000;
+	border-radius: 4px 4px 0 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+
+.header {
+	background-color: #a6a6a6;
+  padding: 20px;
+  text-align: center;
+  Font-size: 40px;
+}
+
+.content1 {
+	overflow: hidden;
+	float:left;
+	width:100%;
+	background-color: #a2aeef;
+	padding: 20px;
+	background-repeat: repeat-x;
+	font-size: 26px;
+}
+
+.content2 {
+	overflow: hidden;
+	float:left;
+	width:100%;
+	background-color: #805592;
+	padding: 20px;
+	background-repeat: repeat-x;
+	font-size: 26px;
+}
+
+.content3 {
+	overflow: hidden;
+	float:left;
+	width:100%;
+	background-color: #e0a363;
+	padding: 20px;
+	background-repeat: repeat-x;
+	font-size: 26px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+	background-color: inherit;
+	float: left;
+	width: 50%;
+	padding: 15px;
+	text-align: center;
+}
+
+.column2{
+	background-color: inherit;
+	float: Left;
+	width: 33%;
+	padding: 15px;
+	text-align: center;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 800px) {
+	.column {
+    width: 100%;
+  }
+	#menu-icon {
+		display:inline-block;
+	}
+	.smallnav ul, .smallnav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #000000;
+		border: 1px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+}
+	.smallnav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	.smallnav:hover ul {
+		display: block;
+	}
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
