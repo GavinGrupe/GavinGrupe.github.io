@@ -49,7 +49,7 @@ nav .menu{
 	color: #000;
 }
 .img{
-	background: url(images/gavin.jpg) no-repeat;
+	background: url(/docs/assets/images/gavin.jpg) no-repeat;
 	height: 100vh;
 	width:100%;
 	background-position: center;
@@ -88,7 +88,7 @@ nav .menu{
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #000000 url(images/menu.png) center;
+	background: #000000 url(/docs/assets/images/menu.png) center;
 
 }
 
