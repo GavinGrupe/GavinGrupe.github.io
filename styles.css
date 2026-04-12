@@ -114,6 +114,12 @@ li {
   Font-size: 40px;
 }
 
+.headertrans {
+  padding: 20px;
+  text-align: center;
+  Font-size: 40px;
+}
+
 .content1 {
 	overflow: hidden;
 	float:left;
