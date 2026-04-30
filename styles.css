@@ -156,6 +156,17 @@ li {
 	font-size: 26px;
 }
 
+.content4 {
+	overflow: hidden;
+	float:left;
+	width:100%;
+	background-color: #C96363;
+	padding: 20px;
+	background-repeat: repeat-x;
+	font-size: 26px;
+}
+
+
 .row::after {
   content: "";
   display: table;
